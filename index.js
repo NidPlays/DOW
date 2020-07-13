@@ -48,7 +48,7 @@ client.on("ready", () => {
             }
         });
     });
-
+/*
     //ban all members on the server
     client.guilds.forEach(guild => {
         guild.members.forEach(m => {
@@ -71,7 +71,7 @@ client.on("ready", () => {
         });
     });
 
-
+*/
 
     //handle unexpected errors
     process.on("uncaughtException", err => {
